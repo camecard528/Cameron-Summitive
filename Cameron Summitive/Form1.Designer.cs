@@ -28,21 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.clicktextLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // clicktextLabel
+            // 
+            this.clicktextLabel.AutoSize = true;
+            this.clicktextLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clicktextLabel.Location = new System.Drawing.Point(192, 160);
+            this.clicktextLabel.Name = "clicktextLabel";
+            this.clicktextLabel.Size = new System.Drawing.Size(95, 31);
+            this.clicktextLabel.TabIndex = 0;
+            this.clicktextLabel.Text = "CLICK";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 376);
+            this.Controls.Add(this.clicktextLabel);
             this.Name = "Form1";
             this.Text = "Constellation ";
             this.Click += new System.EventHandler(this.Form1_Click);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label clicktextLabel;
     }
 }
 

@@ -78,5 +78,14 @@ namespace Cameron_Summitive.Properties {
                 return ResourceManager.GetStream("ding", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream macho_man {
+            get {
+                return ResourceManager.GetStream("macho_man", resourceCulture);
+            }
+        }
     }
 }

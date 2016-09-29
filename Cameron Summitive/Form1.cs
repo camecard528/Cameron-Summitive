@@ -25,7 +25,9 @@ namespace Cameron_Summitive
         }
 
         private void Form1_Click(object sender, EventArgs e)
-        {   // setting graphics
+        {
+            clicktextLabel.Visible = false;
+            // setting graphics
             Graphics formGraphics = this.CreateGraphics();
             Pen drawPen = new Pen(Color.White, 10);
             SolidBrush titleBrush = new SolidBrush(Color.Black);
@@ -43,8 +45,51 @@ namespace Cameron_Summitive
             formGraphics.RotateTransform(90);
             formGraphics.DrawString("Unit 1: Final Summitive", titleFont, titleBrush, -10, -250);
             formGraphics.ResetTransform();
+            Thread.Sleep(1000);
 
-            Thread.Sleep(4000);
+            SolidBrush titleBrush1 = new SolidBrush(Color.Red);
+            // titles
+            formGraphics.DrawString("Constelltion: Corona Borelias", titleFont, titleBrush1, 15, 30);
+            formGraphics.DrawString("By: Cameron Cardiff", titleFont, titleBrush1, 15, 350);
+            // titles
+            formGraphics.TranslateTransform(240, 35);
+            formGraphics.RotateTransform(90);
+            formGraphics.DrawString("Unit 1: Final Summitive", titleFont, titleBrush1, -10, -250);
+            formGraphics.ResetTransform();
+            Thread.Sleep(1000);
+
+            SolidBrush titleBrush2 = new SolidBrush(Color.Blue);
+            // titles
+            formGraphics.DrawString("Constelltion: Corona Borelias", titleFont, titleBrush2, 15, 30);
+            formGraphics.DrawString("By: Cameron Cardiff", titleFont, titleBrush2, 15, 350);
+            // titles
+            formGraphics.TranslateTransform(240, 35);
+            formGraphics.RotateTransform(90);
+            formGraphics.DrawString("Unit 1: Final Summitive", titleFont, titleBrush2, -10, -250);
+            formGraphics.ResetTransform();
+            Thread.Sleep(1000);
+             
+            SolidBrush titleBrush3 = new SolidBrush(Color.Yellow);
+            // titles
+            formGraphics.DrawString("Constelltion: Corona Borelias", titleFont, titleBrush3, 15, 30);
+            formGraphics.DrawString("By: Cameron Cardiff", titleFont, titleBrush3, 15, 350);
+            // titles
+            formGraphics.TranslateTransform(240, 35);
+            formGraphics.RotateTransform(90);
+            formGraphics.DrawString("Unit 1: Final Summitive", titleFont, titleBrush3, -10, -250);
+            formGraphics.ResetTransform();
+            Thread.Sleep(1000);
+
+            // titles
+            formGraphics.DrawString("Constelltion: Corona Borelias", titleFont, titleBrush, 15, 30);
+            formGraphics.DrawString("By: Cameron Cardiff", titleFont, titleBrush, 15, 350);
+            // titles
+            formGraphics.TranslateTransform(240, 35);
+            formGraphics.RotateTransform(90);
+            formGraphics.DrawString("Unit 1: Final Summitive", titleFont, titleBrush, -10, -250);
+            formGraphics.ResetTransform();
+            Thread.Sleep(1000);
+
             Refresh();
 
             // new pen and brush for constellation and clean background
@@ -90,9 +135,13 @@ namespace Cameron_Summitive
             Thread.Sleep(500);
             formGraphics.DrawLine(conPen, 368, 119, 353, 39);
 
-            SolidBrush descBrush = new SolidBrush(Color.White);
-            Font descFont = new Font("Times New Roman", 9, FontStyle.Bold);
+            SoundPlayer macho = new SoundPlayer(Properties.Resources.macho_man);
+            macho.Play();
             
+            SolidBrush descBrush = new SolidBrush(Color.White);
+            Font descFont = new Font("Times New Roman", 8, FontStyle.Bold);
+            
+            //text displayed on screen
             formGraphics.DrawString("Corona Borealis is a small constellation in the Northern Celestial Hemisphere. It is one of the 48 ", descFont, descBrush, 0, 250);
             formGraphics.DrawString("constellations listed by the 2nd - century astronomer Ptolemy, and remains one of the 88 modern", descFont, descBrush, 0, 260);
             formGraphics.DrawString("constellations. Its brightest stars form a semicircular arc. Its Latin name, inspired by its shape,", descFont, descBrush, 0, 270);

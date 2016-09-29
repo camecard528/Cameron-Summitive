@@ -245,7 +245,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAA6yAwAOsgMAAAEAAQoPAgAAAA6yAwACUklGRgayAwBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAADrIDAA6yAwAOsgMAAAEAAQoPAgAAAA6yAwACUklGRgayAwBXQVZFZm10IBAAAAAB
         AAEAgLsAAAB3AQACABAATElTVBoAAABJTkZPSVNGVA4AAABMYXZmNTcuNDguMTAxAGRhdGHAsQMAAQAB
         AP////8BAAEAAAABAP////8AAAEAAQABAAEAAQAAAP//AAACAAEAAQABAAAAAgACAAEAAgADAAAAAAAA
         AP7///8AAP7/AAACAAEA//8BAP///v/+//7///8AAP7//v//////AAACAAAAAAABAP//AAAEAAIA/v8A
@@ -4284,5 +4284,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAACw==
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="macho_man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macho man.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
